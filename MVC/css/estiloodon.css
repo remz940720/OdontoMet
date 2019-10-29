@@ -1,0 +1,65 @@
+{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	background: #6DC4D1;
+}
+
+header{
+    background: #FFFFFF;
+	font-size:18.5px;
+	font-family: sans-serif;
+	text-align: center;
+    line-height: 500%;
+}
+
+.es{
+border:hidden;
+}
+
+.esquema{
+border: 2px solid #100F0F;
+background: white;
+padding: 1%;
+box-shadow: 0 0 20px 1px rgba(0,0,0,0.3);
+}
+
+.diagnostico{
+border: 2px solid #100F0F;
+background: white;
+padding: 1%;
+box-shadow: 0 0 20px 1px rgba(0,0,0,0.3);
+border-collapse: collapse;
+}
+
+.periodonto{
+	border: 2px solid #100F0F;
+background: white;
+padding: 1%;
+box-shadow: 0 0 20px 1px rgba(0,0,0,0.3);
+border-collapse: collapse;
+}
+
+
+button{
+  background-image: url(../img/t.png);
+  text-align: center;
+  width: 30px;
+  height: 30px;
+
+}
+
+input[type=submit]{
+align-content: center;
+text-decoration: none;
+font-size:20px;
+color:#ffffff;
+background-color:#828489;
+text-align: right;
+padding-right:5px;
+padding-right: 5px;
+margin: 1em;
+cursor: pointer;
+}

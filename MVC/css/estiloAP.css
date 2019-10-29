@@ -1,0 +1,89 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+
+header{
+	background: #7ABBBB;
+	font-size:18.5px;
+	font-family: sans-serif;
+	text-align: center;
+    line-height: 500%;	
+}
+
+div{
+	max-width: auto;
+	min-width: 300px;
+}
+
+#Izquierdo{
+	position: relative;
+	border-radius: 1em;
+	float: left;
+	padding: 3%;
+	color: #fff;
+	width: auto;
+	margin: 8px;
+	background:#276680;
+
+}
+
+#Derecho{
+	position: relative;
+	border-radius: 1em;
+	float: right; 
+	padding: 1%;
+	color: #fff;
+	width: auto;
+	margin: 11px;
+	background:#276680;
+}
+
+
+input[type=submit]{
+align-content: center;
+text-decoration: none;
+font-size:20px;
+color:#ffffff;
+background-color:#828489;
+text-align: right;
+padding-right:5px;
+padding-right: 5px;
+margin: 1em;
+cursor: pointer;
+}
+
+input[type=radio]{
+	left: 7%;
+}
+
+@media screen and (max-width:40rem) {
+	#Izquierdo{
+		width: 50px;
+		padding: 10%;
+
+	}
+
+	table{
+		width: 40%;
+
+	}
+
+	.tabla2{
+		position: relative;
+		left: 25%;
+	}
+
+	h2{
+        position: relative;
+		left: 15%;
+	}
+
+	.adicciones{
+		position: relative;
+		left: 1%;
+	}	
+
+	
+}
