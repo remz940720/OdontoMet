@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Login</title>
+	<title>Pruebas</title>
 	<link rel="stylesheet"  href="css/login.css">
 </head>
 <body>
@@ -15,6 +15,15 @@
 		<label class="formulario__label">Contraseña</label>
 		<input type="submit" class="submit" value="Iniciar Sesión">
 	</form>
+	<form action="#" class="formulario">
+		<h1 class="titulo">INICIAR SESIÓN</h1>
+		<input type="text" class="formulario__input">
+		<label class="formulario__label">Usuario</label>
+		<input type="password" class="formulario__input">
+		<label class="formulario__label">Contraseña</label>
+		<input type="submit" class="submit" value="Iniciar Sesión">
+	</form>
+	
 	<script src="js/formLog.js"></script>
 	<br>
 	<footer> Información del dentista y del consultorio</footer>
