@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<title>OdontoMet</title>
 	<link rel="stylesheet"  href="css/login.css">
+	<link rel="stylesheet"  href="css/login.css">
 </head>
 <body>
     <img src="img/encabezado.png" width="1000" height="900" class="encabezado" alt="encabezado">
