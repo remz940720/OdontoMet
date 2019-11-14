@@ -1,3 +1,6 @@
+<?php
+include_once ('../Controlador/controller.php');
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,13 +11,13 @@
 </head>
 <body>
     <img src="img/encabezado.png" width="1000" height="900" class="encabezado" alt="encabezado">
-	<form action="#" class="formulario">
+	<form action="../Controlador/controller.php" class="formulario" method="post">
 		<h1 class="titulo">INICIAR SESIÓN</h1>
-		<input type="text" class="formulario__input">
+		<input type="text" class="formulario__input" name="nombre">
 		<label class="formulario__label">Usuario</label>
-		<input type="password" class="formulario__input">
+		<input type="password" class="formulario__input" name="contrasena">
 		<label class="formulario__label">Contraseña</label>
-		<input type="submit" class="submit" value="Iniciar Sesión">
+		<input type="submit" class="submit" value="Iniciar Sesión" name="Login">
 	</form>
 	<script src="js/formLog.js"></script>
 	<br>
